@@ -1,0 +1,404 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Jun  8 21:24:22 2025
+# Process ID: 1940
+# Current directory: C:/Users/NO/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18424
+# Log file: C:/Users/NO/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/NO/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On: IDEAPAD, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 4, Host memory: 12669 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.xpr
+INFO: [Project 1-313] Project file moved from 'D:/MYPROGS/FPGA/AntMinerS9/OpenZynqSDR_HW' since last save.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'D:/GITHUB/OpenZynqSDR_HW/ip_repo/myip_1_0'; using path 'D:/MYPROGS/FPGA/AntMinerS9/ip_repo/myip_1_0' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'D:/GITHUB/OpenZynqSDR_HW/SDRProjectCopy/HLS_sound_project/export'; using path 'D:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_sound_project/export' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'D:/GITHUB/OpenZynqSDR_HW/SDRProjectCopy/HLS_waterfall_project/export'; using path 'D:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_waterfall_project/export' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_processing_system7_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_wf_proc_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_wf_proc_0_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_sound_rx_common_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_spi_receiver_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_rst_design_1_10M_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'design_1_adc_ovr_detect_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/ip_repo/myip_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/NO/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_sound_project/export'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_waterfall_project/export'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 986.859 ; gain = 48.742
+update_module_reference {design_1_wf_proc_0_0 design_1_wf_proc_0_1}
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'assign' [d:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/wf_cic/cic_wf1.vh:23]
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'IN_WIDTH' by 12 for port or parameter 'adc_data'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'WF1_BITS' by 24 for port or parameter 'prod_i'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'WF1_BITS' by 24 for port or parameter 'prod_q'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'DDS_OUT_WIDTH' by 14 for port or parameter 'sin_dds'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'DDS_OUT_WIDTH' by 14 for port or parameter 'cos_dds'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'DDS_PHASE_WIDTH' by 32 for port or parameter 'dds_phase_inc_value'
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'cic_decim' has a dependency on the module local parameter or undefined parameter 'WF_MD'.
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'WFO_BITS' by 16 for port or parameter 'cic_out_i'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'WFO_BITS' by 16 for port or parameter 'cic_out_q'
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'mult_prod_i' has a dependency on the module local parameter or undefined parameter 'MULT_RESULT_WIDTH'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'mult_prod_q' has a dependency on the module local parameter or undefined parameter 'MULT_RESULT_WIDTH'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'in_aclk' of definition 'xilinx.com:signal:clock:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'in_aclk' of definition 'xilinx.com:signal:clock:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'wf_axis' of definition 'xilinx.com:interface:axis:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'wf_axis' of definition 'xilinx.com:interface:axis:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-4728] Bus Interface 'in_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'resn_i'.
+INFO: [IP_Flow 19-4728] Bus Interface 'in_aclk': Added interface parameter 'FREQ_HZ' with value '40000000'.
+INFO: [IP_Flow 19-4728] Bus Interface 'in_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'wf_axis'.
+INFO: [IP_Flow 19-7067] Note that bus interface 'in_aclk' has a fixed FREQ_HZ of '40000000'. This value will be respected whenever this IP is instantiated in IP Integrator.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/ip_repo/myip_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/NO/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_sound_project/export'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_waterfall_project/export'.
+Reading block design file <D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_design_1_10M
+Adding component instance block -- xilinx.com:module_ref:spi_receiver:1.0 - spi_receiver_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon_2
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon_1
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:module_ref:adc_ovr_detect:1.0 - adc_ovr_detect_0
+Adding component instance block -- xilinx.com:module_ref:wf_proc:1.0 - wf_proc_0
+Adding component instance block -- xilinx.com:module_ref:wf_proc:1.0 - wf_proc_1
+Adding component instance block -- xilinx.com:module_ref:sound_rx_common:1.0 - sound_rx_common_0
+Adding component instance block -- xilinx.com:hls:sound_sender:1.0 - sound_sender_0
+Adding component instance block -- xilinx.com:hls:waterfall_sender:1.0 - waterfall_sender_0
+Adding component instance block -- xilinx.com:hls:waterfall_sender:1.0 - waterfall_sender_1
+Successfully read diagram <design_1> from block design file <D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/bd/design_1/design_1.bd>
+Upgrading 'D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3420] Updated design_1_wf_proc_0_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated design_1_wf_proc_0_1 to use current project options
+Wrote  : <D:\GITHUB\OpenZynqSDR_HW\Src_Vivado\OpenZynqSDR_HW.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+upgrade_ip: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1048.250 ; gain = 0.000
+update_module_reference: Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 1048.250 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/ip/dds_sound/dds_sound.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/ip/rx_cic_1/rx_cic_1.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/ip/rx_cic2/rx_cic2.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/ip/dds_sound/dds_sound.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/ip/dds_sound/dds_sound.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/ip/rx_cic_1/rx_cic_1.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/ip/dds_sound/dds_sound.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/ip/rx_cic2/rx_cic2.xci' is already up-to-date
+WARNING: [BD 5-700] No address spaces matched 'get_bd_addr_spaces -of_objects /processing_system7_0 -filter {path == /processing_system7_0/Data}'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects {}'
+WARNING: [#UNDEF] When using EMIO pins for SPI_0 tie SSIN High in the PL bitstream
+WARNING: [BD 41-927] Following properties on pin /sound_sender_0/ap_clk have been updated from connected ip, but BD cell '/sound_sender_0' does not accept parameter changes, so they may not be synchronized with cell properties:
+	FREQ_HZ = 40000000 
+Please resolve any mismatches by directly setting properties on BD cell </sound_sender_0> to completely resolve these warnings.
+WARNING: [BD 41-927] Following properties on pin /waterfall_sender_0/ap_clk have been updated from connected ip, but BD cell '/waterfall_sender_0' does not accept parameter changes, so they may not be synchronized with cell properties:
+	FREQ_HZ = 40000000 
+Please resolve any mismatches by directly setting properties on BD cell </waterfall_sender_0> to completely resolve these warnings.
+WARNING: [BD 41-927] Following properties on pin /waterfall_sender_1/ap_clk have been updated from connected ip, but BD cell '/waterfall_sender_1' does not accept parameter changes, so they may not be synchronized with cell properties:
+	FREQ_HZ = 40000000 
+Please resolve any mismatches by directly setting properties on BD cell </waterfall_sender_1> to completely resolve these warnings.
+Wrote  : <D:\GITHUB\OpenZynqSDR_HW\Src_Vivado\OpenZynqSDR_HW.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon_2/s00_couplers/auto_pc/s_axi_awlock'(1) to pin: '/axi_mem_intercon_2/s00_couplers/S_AXI_awlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon_2/s00_couplers/auto_pc/m_axi_bid'(1) to pin: '/axi_mem_intercon_2/s00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon_1/s00_couplers/auto_pc/s_axi_awlock'(1) to pin: '/axi_mem_intercon_1/s00_couplers/S_AXI_awlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon_1/s00_couplers/auto_pc/m_axi_bid'(1) to pin: '/axi_mem_intercon_1/s00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/s00_couplers/auto_pc/s_axi_awlock'(1) to pin: '/axi_mem_intercon/s00_couplers/S_AXI_awlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP1_AWID'(6) to pin: '/axi_mem_intercon_1/M00_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP1_WID'(6) to pin: '/axi_mem_intercon_1/M00_AXI_wid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP2_AWID'(6) to pin: '/axi_mem_intercon_2/M00_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP2_WID'(6) to pin: '/axi_mem_intercon_2/M00_AXI_wid'(1) - Only lower order bits will be connected.
+Verilog Output written to : d:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.gen/sources_1/bd/design_1/synth/design_1.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon_2/s00_couplers/auto_pc/s_axi_awlock'(1) to pin: '/axi_mem_intercon_2/s00_couplers/S_AXI_awlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon_2/s00_couplers/auto_pc/m_axi_bid'(1) to pin: '/axi_mem_intercon_2/s00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon_1/s00_couplers/auto_pc/s_axi_awlock'(1) to pin: '/axi_mem_intercon_1/s00_couplers/S_AXI_awlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon_1/s00_couplers/auto_pc/m_axi_bid'(1) to pin: '/axi_mem_intercon_1/s00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/s00_couplers/auto_pc/s_axi_awlock'(1) to pin: '/axi_mem_intercon/s00_couplers/S_AXI_awlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP1_AWID'(6) to pin: '/axi_mem_intercon_1/M00_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP1_WID'(6) to pin: '/axi_mem_intercon_1/M00_AXI_wid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP2_AWID'(6) to pin: '/axi_mem_intercon_2/M00_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP2_WID'(6) to pin: '/axi_mem_intercon_2/M00_AXI_wid'(1) - Only lower order bits will be connected.
+Verilog Output written to : d:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : d:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block wf_proc_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block wf_proc_1 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon_2/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon_1/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.gen/sources_1/bd/design_1/ip/design_1_auto_pc_2/design_1_auto_pc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.gen/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_us .
+Exporting to file d:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File d:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.gen/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_auto_pc_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_auto_pc_2
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_auto_us_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_pc_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_pc_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_pc_2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_us_0
+[Sun Jun  8 21:27:35 2025] Launched design_1_processing_system7_0_0_synth_1, design_1_sound_rx_common_0_0_synth_1, design_1_spi_receiver_0_0_synth_1, design_1_rst_design_1_10M_0_synth_1, design_1_adc_ovr_detect_0_0_synth_1, design_1_wf_proc_0_1_synth_1, design_1_wf_proc_0_0_synth_1, design_1_auto_us_0_synth_1, design_1_auto_pc_0_synth_1, design_1_auto_pc_1_synth_1, design_1_auto_pc_2_synth_1...
+Run output will be captured here:
+design_1_processing_system7_0_0_synth_1: D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.runs/design_1_processing_system7_0_0_synth_1/runme.log
+design_1_sound_rx_common_0_0_synth_1: D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.runs/design_1_sound_rx_common_0_0_synth_1/runme.log
+design_1_spi_receiver_0_0_synth_1: D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.runs/design_1_spi_receiver_0_0_synth_1/runme.log
+design_1_rst_design_1_10M_0_synth_1: D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.runs/design_1_rst_design_1_10M_0_synth_1/runme.log
+design_1_adc_ovr_detect_0_0_synth_1: D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.runs/design_1_adc_ovr_detect_0_0_synth_1/runme.log
+design_1_wf_proc_0_1_synth_1: D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.runs/design_1_wf_proc_0_1_synth_1/runme.log
+design_1_wf_proc_0_0_synth_1: D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.runs/design_1_wf_proc_0_0_synth_1/runme.log
+design_1_auto_us_0_synth_1: D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.runs/design_1_auto_us_0_synth_1/runme.log
+design_1_auto_pc_0_synth_1: D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.runs/design_1_auto_pc_0_synth_1/runme.log
+design_1_auto_pc_1_synth_1: D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.runs/design_1_auto_pc_1_synth_1/runme.log
+design_1_auto_pc_2_synth_1: D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.runs/design_1_auto_pc_2_synth_1/runme.log
+[Sun Jun  8 21:27:35 2025] Launched synth_1...
+Run output will be captured here: D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 1458.133 ; gain = 251.781
+launch_runs impl_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/ip/dds_sound/dds_sound.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/ip/rx_cic_1/rx_cic_1.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/ip/rx_cic2/rx_cic2.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/ip/dds_sound/dds_sound.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/ip/dds_sound/dds_sound.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/ip/rx_cic_1/rx_cic_1.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/ip/dds_sound/dds_sound.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.srcs/sources_1/ip/rx_cic2/rx_cic2.xci' is already up-to-date
+[Sun Jun  8 21:33:53 2025] Launched impl_1...
+Run output will be captured here: D:/GITHUB/OpenZynqSDR_HW/Src_Vivado/OpenZynqSDR_HW.runs/impl_1/runme.log
+close_project
+open_project D:/MYPROGS/FPGA/AntMinerS9/OpenZynqSDR_HW/OpenZynqSDR_HW.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/ip_repo/myip_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/NO/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_sound_project/export'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_waterfall_project/export'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 1521.797 ; gain = 0.000
+update_compile_order -fileset sources_1
+archive_project D:/MYPROGS/FPGA/AntMinerS9/OpenZynqSDR_HW.xpr.zip -temp_dir C:/Users/NO/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-1940-IDEAPAD -force -exclude_run_results
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/NO/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-1940-IDEAPAD' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/ip_repo/myip_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/NO/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_sound_project/export'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_waterfall_project/export'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/PROGRAMS/FPGA/2022_2/Vivado/2022.2/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+WARNING: [IP_Flow 19-3571] IP 'design_1_sound_rx_common_0_0' is restricted:
+* Detected changes to module reference file(s).
+WARNING: [IP_Flow 19-3571] IP 'design_1_wf_proc_0_1' is restricted:
+* Module reference is stale and needs refreshing.
+WARNING: [IP_Flow 19-3571] IP 'design_1_sound_rx_common_0_0' is restricted:
+* Detected changes to module reference file(s).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+WARNING: [IP_Flow 19-3157] Bus Interface 'rst_n': Bus parameter POLARITY is ACTIVE_LOW but port 'rst_n' is not *resetn - please double check the POLARITY setting.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/ip_repo/myip_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/NO/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_sound_project/export'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_waterfall_project/export'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'in_aclk' of definition 'xilinx.com:signal:clock:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'in_aclk' of definition 'xilinx.com:signal:clock:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'snd_axis' of definition 'xilinx.com:interface:axis:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'snd_axis' of definition 'xilinx.com:interface:axis:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-4728] Bus Interface 'in_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'resn_i'.
+INFO: [IP_Flow 19-4728] Bus Interface 'in_aclk': Added interface parameter 'FREQ_HZ' with value '40000000'.
+INFO: [IP_Flow 19-4728] Bus Interface 'in_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'snd_axis'.
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "(spirit:decode(id('MODELPARAM_VALUE.SOUND_CH_CNT')) * 2)" into user parameter "SOUND_WORDS_CNT".
+INFO: [IP_Flow 19-7067] Note that bus interface 'in_aclk' has a fixed FREQ_HZ of '40000000'. This value will be respected whenever this IP is instantiated in IP Integrator.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/ip_repo/myip_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/NO/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_sound_project/export'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_waterfall_project/export'.
+WARNING: [IP_Flow 19-5464] No port map found for required logical port SS_T on bus interface abstraction spi_rtl for interface type slave.
+WARNING: [IP_Flow 19-5464] No port map found for required logical port SCK_I on bus interface abstraction spi_rtl for interface type slave.
+WARNING: [IP_Flow 19-5464] No port map found for required logical port SCK_T on bus interface abstraction spi_rtl for interface type slave.
+WARNING: [IP_Flow 19-5464] No port map found for required logical port IO0_I on bus interface abstraction spi_rtl for interface type slave.
+WARNING: [IP_Flow 19-5464] No port map found for required logical port IO0_T on bus interface abstraction spi_rtl for interface type slave.
+WARNING: [IP_Flow 19-5464] No port map found for required logical port IO1_I on bus interface abstraction spi_rtl for interface type slave.
+WARNING: [IP_Flow 19-5464] No port map found for required logical port IO1_O on bus interface abstraction spi_rtl for interface type slave.
+WARNING: [IP_Flow 19-5464] No port map found for required logical port IO1_T on bus interface abstraction spi_rtl for interface type slave.
+WARNING: [IP_Flow 19-5462] Defaulting to slave bus interface due to conflicts in bus interface inference.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'spi_s' of definition 'xilinx.com:interface:spi:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'spi_s' of definition 'xilinx.com:interface:spi:1.0' (from 'X_INTERFACE_INFO' attribute).
+WARNING: [IP_Flow 19-3480] slave: Portmap direction mismatched between component port 'csn_o' and definition port 'SS_I'.
+WARNING: [IP_Flow 19-3480] slave: Portmap direction mismatched between component port 'csn_i' and definition port 'SS_O'.
+WARNING: [IP_Flow 19-3480] slave: Portmap direction mismatched between component port 'spi_clk' and definition port 'SCK_O'.
+WARNING: [IP_Flow 19-3480] slave: Portmap direction mismatched between component port 'mosi' and definition port 'IO0_O'.
+WARNING: [IP_Flow 19-1965] Bus Interface 'spi_s': A port map to the required logical port "SS_T" of the bus abstraction "xilinx.com:interface:spi_rtl:1.0" is missing.
+WARNING: [IP_Flow 19-1965] Bus Interface 'spi_s': A port map to the required logical port "SCK_I" of the bus abstraction "xilinx.com:interface:spi_rtl:1.0" is missing.
+WARNING: [IP_Flow 19-1965] Bus Interface 'spi_s': A port map to the required logical port "SCK_T" of the bus abstraction "xilinx.com:interface:spi_rtl:1.0" is missing.
+WARNING: [IP_Flow 19-1965] Bus Interface 'spi_s': A port map to the required logical port "IO0_I" of the bus abstraction "xilinx.com:interface:spi_rtl:1.0" is missing.
+WARNING: [IP_Flow 19-1965] Bus Interface 'spi_s': A port map to the required logical port "IO0_T" of the bus abstraction "xilinx.com:interface:spi_rtl:1.0" is missing.
+WARNING: [IP_Flow 19-1965] Bus Interface 'spi_s': A port map to the required logical port "IO1_I" of the bus abstraction "xilinx.com:interface:spi_rtl:1.0" is missing.
+WARNING: [IP_Flow 19-1965] Bus Interface 'spi_s': A port map to the required logical port "IO1_O" of the bus abstraction "xilinx.com:interface:spi_rtl:1.0" is missing.
+WARNING: [IP_Flow 19-1965] Bus Interface 'spi_s': A port map to the required logical port "IO1_T" of the bus abstraction "xilinx.com:interface:spi_rtl:1.0" is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/ip_repo/myip_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/NO/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_sound_project/export'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_waterfall_project/export'.
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'assign' [c:/Users/NO/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-1940-IDEAPAD/PrjAr/_X_/OpenZynqSDR_HW.srcs/sources_1/wf_cic/cic_wf1.vh:23]
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'IN_WIDTH' by 12 for port or parameter 'adc_data'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'WF1_BITS' by 24 for port or parameter 'prod_i'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'WF1_BITS' by 24 for port or parameter 'prod_q'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'DDS_OUT_WIDTH' by 14 for port or parameter 'sin_dds'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'DDS_OUT_WIDTH' by 14 for port or parameter 'cos_dds'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'DDS_PHASE_WIDTH' by 32 for port or parameter 'dds_phase_inc_value'
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'cic_decim' has a dependency on the module local parameter or undefined parameter 'WF_MD'.
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'WFO_BITS' by 16 for port or parameter 'cic_out_i'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'WFO_BITS' by 16 for port or parameter 'cic_out_q'
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'mult_prod_i' has a dependency on the module local parameter or undefined parameter 'MULT_RESULT_WIDTH'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'mult_prod_q' has a dependency on the module local parameter or undefined parameter 'MULT_RESULT_WIDTH'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'in_aclk' of definition 'xilinx.com:signal:clock:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'in_aclk' of definition 'xilinx.com:signal:clock:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'wf_axis' of definition 'xilinx.com:interface:axis:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'wf_axis' of definition 'xilinx.com:interface:axis:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-4728] Bus Interface 'in_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'resn_i'.
+INFO: [IP_Flow 19-4728] Bus Interface 'in_aclk': Added interface parameter 'FREQ_HZ' with value '40000000'.
+INFO: [IP_Flow 19-4728] Bus Interface 'in_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'wf_axis'.
+INFO: [IP_Flow 19-7067] Note that bus interface 'in_aclk' has a fixed FREQ_HZ of '40000000'. This value will be respected whenever this IP is instantiated in IP Integrator.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/ip_repo/myip_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/NO/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_sound_project/export'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_waterfall_project/export'.
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'assign' [c:/Users/NO/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-1940-IDEAPAD/PrjAr/_X_/OpenZynqSDR_HW.srcs/sources_1/wf_cic/cic_wf1.vh:23]
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'IN_WIDTH' by 12 for port or parameter 'adc_data'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'WF1_BITS' by 24 for port or parameter 'prod_i'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'WF1_BITS' by 24 for port or parameter 'prod_q'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'DDS_OUT_WIDTH' by 14 for port or parameter 'sin_dds'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'DDS_OUT_WIDTH' by 14 for port or parameter 'cos_dds'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'DDS_PHASE_WIDTH' by 32 for port or parameter 'dds_phase_inc_value'
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'cic_decim' has a dependency on the module local parameter or undefined parameter 'WF_MD'.
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'WFO_BITS' by 16 for port or parameter 'cic_out_i'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'WFO_BITS' by 16 for port or parameter 'cic_out_q'
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'mult_prod_i' has a dependency on the module local parameter or undefined parameter 'MULT_RESULT_WIDTH'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'mult_prod_q' has a dependency on the module local parameter or undefined parameter 'MULT_RESULT_WIDTH'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'in_aclk' of definition 'xilinx.com:signal:clock:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'in_aclk' of definition 'xilinx.com:signal:clock:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'wf_axis' of definition 'xilinx.com:interface:axis:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'wf_axis' of definition 'xilinx.com:interface:axis:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-4728] Bus Interface 'in_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'resn_i'.
+INFO: [IP_Flow 19-4728] Bus Interface 'in_aclk': Added interface parameter 'FREQ_HZ' with value '40000000'.
+INFO: [IP_Flow 19-4728] Bus Interface 'in_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'wf_axis'.
+INFO: [IP_Flow 19-7067] Note that bus interface 'in_aclk' has a fixed FREQ_HZ of '40000000'. This value will be respected whenever this IP is instantiated in IP Integrator.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/ip_repo/myip_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/NO/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_sound_project/export'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MYPROGS/FPGA/AntMinerS9/SDRProjectCopy/HLS_waterfall_project/export'.
+INFO: [Coretcl 2-135] resetting runs for excluding generated files from archive...
+WARNING: [Coretcl 2-105] Run 'synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+INFO: [Project 1-1161] Replacing file C:/Users/NO/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-1940-IDEAPAD/PrjAr/_X_/OpenZynqSDR_HW.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp with file C:/Users/NO/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-1940-IDEAPAD/PrjAr/_X_/OpenZynqSDR_HW.runs/synth_1/design_1_wrapper.dcp
+WARNING: [Coretcl 2-105] Run 'design_1_processing_system7_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_processing_system7_0_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_wf_proc_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_wf_proc_0_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_wf_proc_0_1_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_wf_proc_0_1_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_sound_rx_common_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_sound_rx_common_0_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_spi_receiver_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_spi_receiver_0_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_rst_design_1_10M_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_rst_design_1_10M_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_adc_ovr_detect_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_adc_ovr_detect_0_0_synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_processing_system7_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_wf_proc_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_wf_proc_0_1_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_sound_rx_common_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_spi_receiver_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_rst_design_1_10M_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_adc_ovr_detect_0_0_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_adc_ovr_detect_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_adc_ovr_detect_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_processing_system7_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_processing_system7_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_rst_design_1_10M_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_rst_design_1_10M_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_sound_rx_common_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_sound_rx_common_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_spi_receiver_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_spi_receiver_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_wf_proc_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_wf_proc_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_wf_proc_0_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_wf_proc_0_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'utils_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'utils_1'
