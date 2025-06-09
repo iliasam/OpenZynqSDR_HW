@@ -12,6 +12,6 @@ Photo of the receiver:
 <img src="https://github.com/iliasam/OpenZynqSDR_HW/blob/main/antminer_pcb.jpg">  
 
 Block disign of the Vivado project:
-<img src="https://github.com/iliasam/OpenZynqSDR_HW/blob/main/design_sdr.png" height="600">  
+<img src="https://github.com/iliasam/OpenZynqSDR_HW/blob/main/design_sdr.png">  
 
 
