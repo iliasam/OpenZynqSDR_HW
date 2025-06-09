@@ -1,5 +1,5 @@
 # OpenZynqSDR_HW
-Hardware for OpenZynqSDR - Open Source SDR receiver, based on Antminter S9 board.
+Hardware for OpenZynqSDR - Open Source SDR receiver, based on Antminter S9 board.  
 See the article: https://habr.com/ru/articles/898490      
 See also: https://github.com/iliasam/OpenZynqSDRApp  
   
