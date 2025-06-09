@@ -9,7 +9,7 @@ See also: https://github.com/iliasam/OpenZynqSDRApp
 "Src_Vivado" - Vivado 2022.2 project.  
 
 Photo of the receiver:  
-<img src="https://github.com/iliasam/OpenZynqSDR_HW/blob/main/antminer_pcb.jpg" height="600">  
+<img src="https://github.com/iliasam/OpenZynqSDR_HW/blob/main/antminer_pcb.jpg">  
 
 Block disign of the Vivado project:
 <img src="https://github.com/iliasam/OpenZynqSDR_HW/blob/main/design_sdr.png" height="600">  
